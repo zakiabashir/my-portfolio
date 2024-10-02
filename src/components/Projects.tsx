@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
                     Object.keys(projects).map(project => (
                         <Image 
                             src={projects[project as keyof Projects].image} 
-                            alt=""  
+                            alt="project"  
                             width={300}
                             height={300}
                             className="mt-4 md:m-1 cursor-pointer"

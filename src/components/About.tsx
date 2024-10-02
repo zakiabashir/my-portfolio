@@ -20,7 +20,7 @@ const About: React.FC = () => {
             <div className="flex flex-col justify-center items-center text-center">
                 <Image 
                     src={userInfo.picture} 
-                    alt="" 
+                    alt="user info" 
                     width={300} 
                     height={300} 
                     className={"m-auto"}    
