@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { FaFacebookSquare, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import Image from "next/image";
