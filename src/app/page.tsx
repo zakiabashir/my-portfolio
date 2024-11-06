@@ -1,15 +1,21 @@
-'use client'
-import { useState } from "react"
-import Header from "@/components/Header"
-import Main from "@/pages/Main";
+import About from "./component/about";
+import Hero from "./component/hero";
+import Portfolio from "./component/portfolio";
+import Service from './component/service';
+
+import Contact from "./component/contact";
+import Skills from "./component/skill";
+
 
 export default function Home() {
-  const [isDesktop, setIsDesktop] = useState<boolean>(true);
-
   return (
-    <>
-      <Header isDesktop={isDesktop} />
-      <Main />
-    </>
-  )
+   <div>
+ <Hero/>
+ <About/>
+ <Service/>
+ <Skills/>
+ <Portfolio/>
+ <Contact/>
+   </div>
+  );
 }

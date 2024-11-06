@@ -1,27 +1,152 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  color: #2c2a2a;
+  margin: 0;
+  padding: 50px;
+  align-items: center;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navlist {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10%;
+      background: var(--bg-color);
+      padding: 10px;
+      border-radius: 8px;
+      width: 180px;
+    }
+  
+    .navlist.open {
+      display: flex;
+    }
+  
+    #menu-icon {
+      display: block;
+    }
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 12px 5%;
+    }
   }
-}
+  
+  /* main {
+    padding-top: 80px; /* Space for fixed header 
+  }
+   */
+  /* Section Styles */
+  section {
+    padding: 50px 10%;
+  }
+  
+  h2 {
+    font-size: var(--h2-font);
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    
+    .navlist {
+      display: none; /* Hide navlist by default */
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10%;
+      background: var(--bg-color);
+      padding: 10px;
+      border-radius: 8px;
+      width: 180px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    }
+  
+    .navlist.open {
+      display: flex; /* Show navlist when open */
+    }
+  
+    #menu-icon {
+      display: block; /* Show menu icon on smaller screens */
+    }
+  
+    header {
+      padding: 10px 5%; /* Reduce header padding on mobile */
+    }
+  
+    main {
+      padding-top: 60px; /* Reduce padding on mobile */
+    }
+  
+    section {
+      padding: 30px 5%; /* Reduce padding in sections on mobile */
+    }
+  
+    h2 {
+      font-size: 2rem; /* Smaller font size for headings */
+    }
+  
+    p {
+      font-size: 0.9rem; /* Smaller font size for paragraphs */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navlist a {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    header {
+      padding: 8px 2%; /* Further reduce header padding on extra small screens */
+    }
+  
+    main {
+      padding-top: 50px; /* Further adjust top padding */
+    }
+  
+    section {
+      padding: 40px 2%; /* Further reduce section padding */
+    }
+  
+    h2 {
+      font-size: 1.8rem; /* Further reduce heading size */
+    }
+  
+    p {
+      font-size: 0.8rem; /* Further reduce paragraph size */
+    }
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px 10%;
+  }
+  
+  /* Image Styles */
+  img {
+    max-width: 100%;
+    height: auto; /* Make images responsive */
+    
+  }
+  
+  /* Utility Classes */
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
