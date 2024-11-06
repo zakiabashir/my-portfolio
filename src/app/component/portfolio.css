@@ -1,26 +1,16 @@
-body{
-    overflow-x: hidden;
-    
-}
 
-.portfolio{
-    margin: 40px 5%;
-    padding: 20px 5%;
-}
+
 .portfolio-gallery {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     gap: 2rem;
-   
-    
 }
 
 .port-box {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    background: var(--bg-color);
+    background: #292e33;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,56 +54,4 @@ body{
 
 .main-text{
     margin-bottom: 5%;
-}
-.port-box {
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden; /* Ensures content stays within the box */
-    background: var(--bg-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid var(--hover-color);
-    box-shadow: var(--neon-box-shadow);
-    transition: transform 0.3s ease;
-    height: 400px; /* Set a specific height for consistency */
-}
-
-.port-img {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    height: 100%;
-    width: 100%; 
-    overflow: hidden; /* Keeps image within container bounds */
-}
-
-.port-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 0.5s ease;
-}
-
-@media (max-width: 768px) {
-    .portfolio {
-        width: 90%;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem; /* Reduce gap on smaller screens */
-    }
-    
-    .port-box {
-        height: 85%; /* Allow height to adjust based on content */
-        width: fit-content;
-    }
-
-    .port-img {
-        max-height: 300px; /* Set max-height for image container */
-    }
-
-    .port-img img {
-        height: auto;
-        max-width: 100%;
-    }
 }

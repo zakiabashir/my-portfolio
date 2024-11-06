@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>HTML</p>
-              <p>90%</p>
+              <p>88%</p>
             </div>
             <div className="bar">
               <span className="html"></span>
@@ -52,7 +52,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>CSS</p>
-              <p>81%</p>
+              <p>80%</p>
             </div>
             <div className="bar">
               <span className="css"></span>
@@ -61,7 +61,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>JavaScript</p>
-              <p>84%</p>
+              <p>85%</p>
             </div>
             <div className="bar">
               <span className="javascript"></span>
@@ -70,7 +70,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>TypeScript</p>
-              <p>88%</p>
+              <p>89%</p>
             </div>
             <div className="bar">
               <span className="typescript"></span>
@@ -79,7 +79,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>Figma</p>
-              <p>80%</p>
+              <p>90%</p>
             </div>
             <div className="bar">
               <span className="figma"></span>
@@ -88,7 +88,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>Tailwind</p>
-              <p>94%</p>
+              <p>92%</p>
             </div>
             <div className="bar">
               <span className="tailwind"></span>
@@ -97,7 +97,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>Next.js</p>
-              <p>89%</p>
+              <p>94%</p>
             </div>
             <div className="bar">
               <span className="tailwind"></span>
@@ -106,7 +106,7 @@ const Skills: React.FC = () => {
           <div className="skill-bar">
             <div className="info">
               <p>React.js</p>
-              <p>98%</p>
+              <p>95%</p>
             </div>
             <div className="bar">
               <span className="tailwind"></span>
@@ -118,23 +118,23 @@ const Skills: React.FC = () => {
           <h3>Professional Skills</h3>
           <div className="professional">
             <div className="box">
-              <div className="circle" data-dots="90" data-percent="20"></div>
+              <div className="circle" data-dots="90" data-percent="25"></div>
               <div className="text">
-                <big>19%</big>
+                <big>25%</big>
                 <small>Team work</small>
               </div>
             </div>
             <div className="box">
-              <div className="circle" data-dots="90" data-percent="80"></div>
+              <div className="circle" data-dots="90" data-percent="85"></div>
               <div className="text">
-                <big>80%</big>
+                <big>85%</big>
                 <small>Creativity</small>
               </div>
             </div>
             <div className="box">
-              <div className="circle" data-dots="80" data-percent="70"></div>
+              <div className="circle" data-dots="80" data-percent="72"></div>
               <div className="text">
-                <big>70%</big>
+                <big>72%</big>
                 <small>Cummunication</small>
               </div>
             </div>

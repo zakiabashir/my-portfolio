@@ -4,23 +4,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem; /* Adjusted from &apos;grid: gap&apos; to &apos;gap&apos; */
-    background: var(--bg-color);
+    gap: 2rem; /* Adjusted from &apos;grid: gap&apos; to &apos;gap&apos; */
+    background: var(--secon-bg-color);
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    padding: 3rem; /* Add padding for better spacing */
+    padding: 2rem; /* Add padding for better spacing */
 }
 
 .about .img-about {
     text-align: center;
     position: relative;
-    align-items: center;
 }
 
 .about .img-about img {
     max-width: 100%; /* Make image fully responsive */
     height: auto;
-    border-radius: 40%;
-   
+    border-radius: 50%;
 }
 
 .about-content {
@@ -30,7 +28,7 @@
 }
 
 .about-content span {
-    color: #fdfdfd;
+    color: #100f0f;
     font-size: 0.8rem;
     font-weight: 200;
     letter-spacing: 2px;
@@ -39,8 +37,7 @@
 
 .about-content h2 {
     color: var(--hover-color);
-    font-weight: 700;
-    font-size: var(--normal-font);
+    font-weight: 900;
 }
 
 .about-content h3 {
@@ -97,7 +94,7 @@
 
 .info-about2 {
     left: 66%;
-    top: 15%;
+    top: 8%;
 }
 
 .info-about3 {
@@ -150,9 +147,7 @@
     .about-content span {
         font-size: 0.7rem; /* Smaller size for mobile */
     }
-.img-about{
-    width: 70%;
-}
+
     .info-about1,
     .info-about2,
     .info-about3 {
@@ -165,15 +160,9 @@
 
     .about-content h3 {
         font-size: 1rem; /* Further adjust subheading size */
-        
-    }
-    .about-content h4 {
-        color: rgb(173, 153, 126);
-        
     }
 
     .about-content p {
         font-size: 0.3rem; 
-        color: rgb(173, 153, 126);
     }
 }

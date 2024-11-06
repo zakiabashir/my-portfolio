@@ -7,19 +7,15 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
-body{
-    overflow-x:hidden ;
-}
 
 :root {
-    --text-color: #f4f3f0;
-    --hover-color: #32dede;
+    --text1-color: #f3e5e5;
+    --hover-color: #24a2a7;
     --bg-color: linear-gradient(to bottom right, rgb(35, 34, 34), rgb(107, 105, 105), rgb(12, 15, 15));
     --secon-bg-color: linear-gradient(to bottom right, rgb(35, 34, 34), rgb(162, 156, 156), rgb(25, 31, 31));
-    ;
     --big-font: 2.5rem;
     --norma-font: 2rem;
-    --neon-box-shadow: 0 0 0.5rem #11c0c6;
+    --neon-box-shadow: 0 0 0.5rem #44d0d5;
     --h2-font: 3rem;
     --font-neon-text-shadow: 
         0 0 10px rgba(18, 247, 255, 0.3),
@@ -48,10 +44,8 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 10%;
+    padding: 20px 10%;
     transition: padding 0.3s ease;
-    
-    
 }
 
 header.sticky {
@@ -60,37 +54,38 @@ header.sticky {
 }
 
 .logo {
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 700;
     letter-spacing: 1px;
-    color: var(--text-color);
-    padding: 20px;
-    background: var(--secon-bg-color);
-    height: 110px;
+    padding: 16px;
+    background: var(--bg-color);
+    height: 100px;
     width: 100px;
     border-radius: 50%;
 }
 .logo img{
     border-radius: 50%;
+    margin-top: -10px;
 }
-
 span {
     color: var(--hover-color);
+    
+    
 }
 
 .navlist {
     display: flex;
     gap: 15px;
+    font-size: 20px;
     font-weight: 900;
-    font-size: 28px;
     background: var(--secon-bg-color);
 }
 
 .navlist a {
     color: var(--text-color);
-    background: var(--secon-bg-color);
     font-weight: 500;
     padding: 10px 20px;
+    background: var(--bg-color);
     transition: color 0.3s, text-shadow 0.3s;
 }
 
@@ -118,17 +113,6 @@ span {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    header{
-        width: 100%;
-        padding: 10px;
-        margin: 0;
-       
-    }
-    .logo{
-        width: 100px;
-        height: 100px;
-        font-size: 16px;
-    }
     .navlist {
         display: none; /* Hide by default */
         flex-direction: column;
@@ -152,9 +136,7 @@ span {
     }
 
     header {
-        align-items: space-around; /* Align items to the around */
-        display: flex;
-        flex-wrap: wrap;
+        align-items: flex-start; /* Align items to the start */
     }
 
     header.sticky {

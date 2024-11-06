@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import Image from "next/image";
-import example from "../../public/zpic.PNG";
+import example from "../../public/zpic (2).jpeg";
 import "./hero.css";
 const Hero = () => {
   useEffect(() => {
@@ -85,7 +85,7 @@ const Hero = () => {
             <a
             target="blank"
               href="https://zakia-portfolio.vercel.app"
-              className="btn"
+              className="btn "
             >
               Download CV
             </a>

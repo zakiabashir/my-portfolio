@@ -1,11 +1,9 @@
 import "./portfolio.css";
 import Link from "next/link";
-import pharmacy from "../../public/zpic.jpeg";
-import agency from "../../public/zpic.jpeg";
-import alishbaport from "../../public/zpic.jpeg";
-import burger from "../../public/zpic.jpeg";
-import coffee from "../../public/zpic.jpeg";
-import onlinehtoh from "../../public/zpic.jpeg";
+import htmlcss from "../../public/p1.PNG";
+import foodweb from "../../public/p2.PNG";
+import figmaweb from "../../public/p3.PNG";
+import personal from "../../public/p4.PNG";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -13,15 +11,15 @@ function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
       <div className="main-text">
-        <span>What I will do for you</span>
+        <span> I am ready to assist you with anything you need.</span>
         <h3>My Latest Projects</h3>
       </div>
       <div className="portfolio-gallery">
         <div className="port-box">
           <div className="port-img">
             <Image
-              src={pharmacy}
-              alt="Pharmacy Project"
+              src={htmlcss}
+              alt="htmlcss portfolio project"
               width={500}
               height={400}
             />
@@ -29,7 +27,7 @@ function Portfolio() {
           <div className="port-content">
             <h3>website Designer</h3>
             <p>
-              I’m a website designer focused on creating clean, modern, and
+              I am a website designer focused on creating clean, modern, and
               responsive designs that provide a seamless user experience on any
               device
             </p>
@@ -41,29 +39,12 @@ function Portfolio() {
 
         <div className="port-box">
           <div className="port-img">
-            <Image src={coffee} alt="coffee" width={500} height={400} />
+            <Image src={foodweb} alt="nextjs food web project" width={500} height={600} />
           </div>
           <div className="port-content">
-            <h3>website creater</h3>
+            <h3> Food website</h3>
             <p>
-              I create responsive, user-friendly websites that look great and
-              perform well on all devices, using modern technologies to bring
-              ideas to life
-            </p>
-            <Link href="https://web-coffee-website.netlify.app">
-              <FaExternalLinkAlt />
-            </Link>
-          </div>
-        </div>
-
-        <div className="port-box">
-          <div className="port-img">
-            <Image src={agency} alt="Agency Project" width={500} height={600} />
-          </div>
-          <div className="port-content">
-            <h3> UI/UX Designer</h3>
-            <p>
-              I’m a UI/UX designer dedicated to crafting intuitive and engaging
+              I am a UI/UX designer dedicated to crafting intuitive and engaging
               user experiences with clean, modern, and responsive designs.
             </p>
             <Link href="https://alishba526-alishba526-alishba526-q2mil-alishbarehman-s-projects.vercel.app/">
@@ -75,18 +56,17 @@ function Portfolio() {
         <div className="port-box">
           <div className="port-img">
             <Image
-              src={alishbaport}
-              alt="Alishba's Portfolio Project"
+              src={figmaweb}
+              alt="figma web portfolio"
               width={500}
               height={700}
             />
           </div>
           <div className="port-content">
-            <h3>MY PORTFOLIO</h3>
+            <h3>Figma website</h3>
             <p>
-              My portfolio highlights my work as a web developer, featuring
-              responsive and user-friendly websites, including e-commerce and
-              restaurant projects
+              My Figmawebsite highlights my work as a web developer, featuring
+              responsive and user-friendly websites.
             </p>
             <Link href="https://alishbarehmanportfolio-pegw.vercel.app/">
               <FaExternalLinkAlt />
@@ -97,8 +77,8 @@ function Portfolio() {
         <div className="port-box">
           <div className="port-img">
             <Image
-              src={burger}
-              alt="Burger Web Project"
+              src={personal}
+              alt="personal portfolio project"
               width={500}
               height={400}
             />
@@ -111,28 +91,6 @@ function Portfolio() {
               customers and enhance online reservations
             </p>
             <Link href="https://figmafirstrestuarantwebsite.vercel.app/">
-              <FaExternalLinkAlt />
-            </Link>
-          </div>
-        </div>
-
-        <div className="port-box">
-          <div className="port-img">
-            <Image
-              src={onlinehtoh}
-              alt="Coffee Project"
-              width={500}
-              height={400}
-            />
-          </div>
-          <div className="port-content">
-            <h3>Onlinewebsite</h3>
-            <p>
-              I create e-commerce websites that are easy to navigate, visually
-              appealing, and optimized for smooth shopping experiences, helping
-              businesses reach customers and drive sales online
-            </p>
-            <Link href="https://online-store-website-full.vercel.app/">
               <FaExternalLinkAlt />
             </Link>
           </div>

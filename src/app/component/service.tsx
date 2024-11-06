@@ -24,7 +24,7 @@ function Service() {
 
   return (
     <section id="service" className="servicesSection">
-      <h2 className="subheading">What I Will Do for You</h2>
+      <h2 className="subheading">I am ready to assist you with anything you need.</h2>
       <h3 className="heading">Our Services</h3>
       <div className="servicesGrid">
         {services.map((service, index) => (

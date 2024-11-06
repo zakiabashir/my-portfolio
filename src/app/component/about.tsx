@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "../../public/zpic.PNG";
+import about from "../../public/zpic (2).jpeg";
 import "./about.css";
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
         </div>
       </div>
       <div className="about-content">
-        <span>Let me Indrojuce myself</span>
+        <span>Let me Indtroduce myself</span>
         <h2>About me</h2>
         <h3>A Story Of Good</h3>
         <h4>
@@ -38,7 +38,9 @@ function About() {
           presence.
         </h4>
         <div className="btn-box">
-          <a href="https://www.linkedin.com/in/zakia-bashir-367b41254/" className="btn">
+          <a
+          target="blank"
+          href="https://www.linkedin.com/in/zakia-bashir-367b41254/" className="btn">
             Read More!
           </a>
         </div>
