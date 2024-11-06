@@ -1,11 +1,11 @@
 import "./portfolio.css";
 import Link from "next/link";
-import htmlcss from "../../public/p1.PNG";
-import foodweb from "../../public/p2.PNG";
-import figmaweb from "../../public/p3.PNG";
-import personal from "../../public/p4.PNG";
 import Image from "next/image";
+import figma from "../../public/figma.png"
 import { FaExternalLinkAlt } from "react-icons/fa";
+import html from "../../public/html.png"
+import food from "../../public/food.jpg"
+import personal from "../../public/personal.png"
 
 function Portfolio() {
   return (
@@ -17,8 +17,8 @@ function Portfolio() {
       <div className="portfolio-gallery">
         <div className="port-box">
           <div className="port-img">
-            <Image
-              src={htmlcss}
+          <Image
+              src={html} // Use relative path directly
               alt="htmlcss portfolio project"
               width={500}
               height={400}
@@ -39,7 +39,7 @@ function Portfolio() {
 
         <div className="port-box">
           <div className="port-img">
-            <Image src={foodweb} alt="nextjs food web project" width={500} height={600} />
+            <Image src={food} alt="nextjs food web project" width={500} height={600} />
           </div>
           <div className="port-content">
             <h3> Food website</h3>
@@ -56,7 +56,7 @@ function Portfolio() {
         <div className="port-box">
           <div className="port-img">
             <Image
-              src={figmaweb}
+              src={figma}
               alt="figma web portfolio"
               width={500}
               height={700}
