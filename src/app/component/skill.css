@@ -18,13 +18,15 @@
 .skill-main {
     width: 100%;
     display: grid;
+    margin:0  ;
     grid-template-columns: 1fr; /* Single column on mobile */
-    gap: 30px; /* Use gap for uniform spacing */
+    gap: 20px; /* Use gap for uniform spacing */
 }
 
 /* Skill Bar */
 .skill-bar {
     margin-bottom: 2.3rem;
+    padding: 0 80px;
 }
 
 .skill-main h3 {
@@ -32,6 +34,7 @@
     font-weight: 900;
     font-size: 25px;
     text-align: center;
+    
 }
 
 .skill-left .skill-bar .info {
@@ -42,7 +45,7 @@
 }
 
 .skill-left .skill-bar .bar {
-    width: 100%;
+    width: 60%;
     height: 10px;
     background: var(--bg-color);
     border-radius: 25px;

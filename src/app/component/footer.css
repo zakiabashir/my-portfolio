@@ -1,28 +1,114 @@
-footer{
-    background:var(aqua) ;
-    color: aqua;
-    height: 50px;
+/* footer section style */
+
+
+footer {
+    
+    padding: 40px 0;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-footer p {
-    margin: 0;
+.footer-left {
+    width: 30%;
+    text-align: left;
+}
+
+.footer-left img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 80px;
 }
 
 
-.back-to-top {
-    position: absolute;
-    right: 20px; 
-    color: aqua;
-    font-size: 1.5rem;
-    transition: color 0.3s;
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-center {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 48%;
+    text-align: left;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(60, 213, 213);
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    
+}
+
+.footer-column ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 
-.back-to-top:hover {
-  color:white ;
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    width: 25%;
+}
+
+.footer-right h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(52, 212, 212);
+}
+
+.footer-right ul {
+    list-style-type: none;
+}
+
+.footer-right ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-right ul li i {
+    margin-right: 10px;
+}
+
+.fsocial-icons a {
+    color: aqua;
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.fsocial-icons a:hover {
+    color: #b79e38;
+}
+
+/* Divider Lines Between Columns */
+.footer-column {
+    
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
 }

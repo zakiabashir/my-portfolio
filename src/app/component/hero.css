@@ -201,6 +201,7 @@ a.btn:nth-child(2)::before {
     margin-top: 0;
     max-width: 300px;
     height: auto;
+    background-color: none;
     border-radius: 50%;
 }
 

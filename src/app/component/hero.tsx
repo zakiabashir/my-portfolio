@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import Image from "next/image";
-import example from "../../public/zpic (2).jpeg";
+import example from "../../public/zpic.jpeg";
 import "./hero.css";
 const Hero = () => {
   useEffect(() => {

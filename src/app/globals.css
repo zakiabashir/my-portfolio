@@ -165,6 +165,29 @@
     p {
       font-size: 0.9rem; /* Smaller font size for paragraphs */
     }
+     /* footer section media query */
+ .container{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+
+}
+.footer-center{
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.footer-left{
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.footer-right{
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
   }
   
   @media (max-width: 480px) {
@@ -196,7 +219,6 @@
   /* Footer Styles */
   footer {
     background: var(--bg-color);
-    color: var(--text-color);
     text-align: center;
     padding: 20px 10%;
   }

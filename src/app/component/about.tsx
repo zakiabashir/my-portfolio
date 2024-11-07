@@ -1,6 +1,6 @@
 import Image from "next/image";
-import about from "../../public/zpic (2).jpeg";
 import "./about.css";
+import about from "../../public/zpic.jpeg";
 function About() {
   return (
     <section id="about" className="about">
