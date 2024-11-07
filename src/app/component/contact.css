@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: var(--secon-bg-color);
+}
 .contact-container {
     max-width: 600px;
     margin: 0 auto;

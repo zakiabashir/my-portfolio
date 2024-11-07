@@ -78,7 +78,7 @@ const Hero = () => {
             </div>
             <div className="behance-info">
               <h5>behance:</h5>
-              <span>behance:Good</span>
+              <span>Good</span>
             </div>
           </div>
           <div className="btn-box">

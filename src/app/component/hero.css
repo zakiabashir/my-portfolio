@@ -14,10 +14,10 @@ section {
     height: 100%;
     width: 100%;
     display: grid;
-    margin-top: 60px;
+    margin-top: 30px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    grid-gap: 5rem;
+    grid-gap: 2rem;
 }
 
 .home-content {
@@ -65,7 +65,7 @@ section {
 }
 
 .home-content p {
-    color: darkgray;
+    color: rgb(224, 203, 203);
     line-height: 1.6;
 }
 
@@ -85,7 +85,7 @@ section {
 
 .info-box span {
     font-size: 0.9rem;
-    color: darkgray;
+    color: rgb(205, 200, 200);
 }
 
 .btn-box {

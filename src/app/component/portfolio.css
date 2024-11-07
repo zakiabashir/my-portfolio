@@ -1,14 +1,56 @@
 
 
+
+/* logo1 styling */
+.logo1 { 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    border-radius: 10px; 
+    max-width: 800px; /* Increased width for single-line fit */
+    margin: 5px auto;
+}
+
+.logo1 ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 10px; 
+    display: flex; /* Ensures items are in a single line */
+    gap: 20px; /* Adds spacing between list items */
+    flex-wrap: nowrap; /* Prevents items from wrapping to a new line */
+}
+
+.logo1 li { 
+    color: #efeef2;
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    cursor: pointer; 
+}
+
+.logo1 li:hover { 
+    background-color: #0c3911; 
+    color: aqua;
+    transform: scale(1.05); 
+}
+
+
+/* gallery styling */
 .portfolio-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     gap: 2rem;
+    padding:30px 3px;
+    background-color: #030303;
+    border-radius: 25px;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
 }
 
 .port-box {
     position: relative;
-    border-radius: 15px;
+    border-radius: 25px;
     overflow: hidden;
     background: #292e33;
     display: flex;
@@ -19,7 +61,6 @@
     transition: transform 0.3s ease;
     height: 400px; /* Set a specific height for consistency */
 }
-
 .port-img {
     display: flex;
     align-items: center;
@@ -51,7 +92,13 @@
     background: linear-gradient(aqua, pink, magenta, orange);
     display: flex;
 }
-
-.main-text{
-    margin-bottom: 5%;
+@media (max-width: 600px) {
+    .logo1 {
+        max-width: 100%; /* Full width on small screens */
+        font-size: small;
+    }
+    .logo1 ul{
+        gap:2px;
+    }
 }
+
