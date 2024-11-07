@@ -1,6 +1,7 @@
 
 
 .about {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +14,7 @@
 .about .img-about {
     text-align: center;
     position: relative;
+    margin: 2rem;
 }
 
 .about .img-about img {
@@ -44,6 +46,10 @@
     font-size: 1.5rem; /* Adjusted font size */
     font-weight: 600;
     margin-bottom: 0.2rem;
+}
+.about-content h4 {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .about-content p {

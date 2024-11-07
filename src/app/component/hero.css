@@ -22,6 +22,7 @@ section {
 
 .home-content {
     max-width: 600px;
+    margin: 2rem;
 }
 
 .home-content h1 {
@@ -92,6 +93,7 @@ section {
     justify-content: space-between;
     width: 320px;
     height: 45px;
+    text-align: center;
 }
 
 .btn-box a.btn {
@@ -111,6 +113,7 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    padding: 1.5rem 1rem;
 }
 
 a.btn::before {
