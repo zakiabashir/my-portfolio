@@ -20,27 +20,21 @@ function Header() {
   return (
     <header className={`header ${isOpen ? "open" : ""}`}>
       <div className="logo">
-      <Image src={zlogo} alt="zlogo" width={50} height={50} className="rounded-full"/>
-        <span>Z</span>akia
+      <Image src={zlogo} alt="qmsh" width={40} height={40} className="rounded-full align-center"/>
+      QM<span>SH</span>
       </div>
       <ul className={`navlist ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#" onClick={closeMenu}>Home</a>
+          <a href="/" onClick={closeMenu}>Home</a>
         </li>
         <li>
-          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="/about" onClick={closeMenu}>About</a>
         </li>
         <li>
-          <a href="#service" onClick={closeMenu}>Service</a> {/* Updated link */}
+          <a href="/service" onClick={closeMenu}>Service</a> {/* Updated link */}
         </li>
         <li>
-          <a href="#skills" onClick={closeMenu}>Skills</a>
-        </li>
-        <li>
-          <a href="#portfolio" onClick={closeMenu}>Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="/contact" onClick={closeMenu}>Contact</a>
         </li>
       </ul>
       <div id="menu-icon" onClick={toggleMenu}>

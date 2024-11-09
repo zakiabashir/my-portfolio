@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import Image from "next/image";
-import example from "../../public/zpic.jpeg";
+import example from "../../public/c2.jpeg";
 import "./hero.css";
 const Hero = () => {
   useEffect(() => {
@@ -58,43 +58,30 @@ const Hero = () => {
     <main>
       <section id="home" className="home">
         <div className="home-content">
-          <h1><span>Hi!</span> I am Zakia </h1>
+          <h1><span>Buy</span> Your Next Classic Car </h1>
           <div className="change-text">
-            <h3>and i&apos;m  </h3><br />
+            <h3>Used &  new  </h3><br />
             <h3>
-              <span className="word"> Frontend&nbsp;developer</span>
-              <span className="word">website&nbsp; creater</span>{" "}
-              <span className="word">ui/ux&nbsp; developer</span>
-              <span className="word">web&nbsp; developer</span>
+              <span className="word"> Electric &nbsp;car</span>
+              <span className="word">for&nbsp; sale</span>{" "}
+              <span className="word">classic&nbsp; car</span>
+              <span className="word">for&nbsp; Sale</span>
             </h3>
           </div>
           <p>
-          I am a web developer specializing in creating responsive, user-friendly websites with modern technologies.
-          </p>
-          <div className="info-box">
-            <div className="emai-info">
-              <h5>Email:</h5>
-              <span>nshafeys0@gmail.com</span>
-            </div>
-            <div className="behance-info">
-              <h5>behance:</h5>
-              <span>Good</span>
-            </div>
-          </div>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora veniam ut. Velit dolores at a aut. Nihil at earum tenetur ea, omnis numquam, repudiandae quos esse consequatur quidem accusamus!
+Eaque maxime itaque exercitationem dolores ea quasi, incidunt quo facere ut deleniti nobis aperiam modi. Doloribus veritatis sit dolore ab porro nulla, dicta corrupti dignissimos alias at ratione similique molestiae?
+Impedit incidunt consequuntur illum ut nam inventore debitis labore veritatis eius dignissimos nobis omnis voluptatum repellat, fugit architecto eum, magnam, voluptate nisi distinctio est quibusdam possimus commodi? Beatae, quisquam eligendi.
+At eveniet sit optio architecto pariatur id ad minima quaerat cumque, assumenda vero unde explicabo sed quos nihil commodi nulla quasi laudantium velit. Quibusdam explicabo facilis accusamus optio. Qui, animi.          </p>
+          
           <div className="btn-box">
-            <a
-            target="blank"
-              href="https://zakia-portfolio.vercel.app"
-              className="btn "
-            >
-              Download CV
-            </a>
+
             <a
             target="blank"
               href="https://www.linkedin.com/in/zakia-bashir-367b41254/"
               className="btn"
             >
-              Hire Me Now!
+              Book Me Now!
             </a>
           </div>
 
@@ -118,7 +105,7 @@ const Hero = () => {
         </div>
         <div className="home-image">
           <div className="image-box">
-            <Image src={example} alt="zakia" height={300} width={300} />
+            <Image src={example} alt="zakia" height={600} width={600} />
           </div>
           <div className="liquid-shape">
             <svg

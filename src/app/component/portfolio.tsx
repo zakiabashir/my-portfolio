@@ -5,10 +5,13 @@ import Image, { StaticImageData } from "next/image";
 import { useState, useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import figma from "../../public/figma.png";
-import html from "../../public/html.png";
-import food from "../../public/food.jpg";
-import personal from "../../public/personal.png";
+import c1 from "../../public/c1.jpeg";
+import c2 from "../../public/c2.jpeg";
+import c3 from "../../public/c3.jpeg";
+import c4 from "../../public/c4.jpeg";
+import c5 from "../../public/c5.jpeg";
+import c6 from "../../public/c6.jpeg";
+
 
 // Define the Project type
 type Project = {
@@ -21,28 +24,28 @@ type Project = {
 // Arrays of images for each project
 const projects: Project[] = [
   {
-    images: [html, figma],
+    images: [c1, c2],
     title: "Website Designer",
     description:
       "I am a website designer focused on creating clean, modern, and responsive designs that provide a seamless user experience on any device.",
     link: "https://html-css-final-assign.vercel.app",
   },
   {
-    images: [food, figma],
+    images: [c3, c4],
     title: "Food Website",
     description:
       "I am a UI/UX designer dedicated to crafting intuitive and engaging user experiences with clean, modern, and responsive designs.",
     link: "https://food-delivery-next-js-one.vercel.app",
   },
   {
-    images: [figma, personal],
+    images: [c5, c6],
     title: "Figma Website",
     description:
       "My Figma website highlights my work as a web developer, featuring responsive and user-friendly websites.",
     link: "figma-web-nextjs.vercel.ap",
   },
   {
-    images: [personal, food],
+    images: [c5, c1],
     title: "personal",
     description:
       "I design restaurant websites that showcase menus, ambiance, and services, providing a user-friendly experience that helps attract customers and enhance online reservations.",
@@ -53,16 +56,15 @@ const projects: Project[] = [
 function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
-      <div className="main-text">
-        <span>I am ready to assist you with anything you need.</span>
-        <h3>My Latest Projects</h3>
-      </div>
+      
       <div className="logo1">
         <ul>
-          <li>Figma</li>
-          <li>F00d-web</li>
-          <li>Personal-portfolio</li>
-          <li>HTML-CSS</li>
+          <li>c1</li>
+          <li>c2</li>
+          <li>c3</li>
+          <li>c4</li>
+          <li>c5</li>
+          <li>c6</li>
         </ul>
       </div>
       <div className="portfolio-gallery">
@@ -93,7 +95,7 @@ function ProjectBox({ project }: { project: Project }) {
           src={project.images[currentImage]}
           alt={project.title}
           width={500}
-          height={400}
+          height={350}
         />
       </div>
       <div className="port-content">

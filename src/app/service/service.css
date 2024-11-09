@@ -1,9 +1,11 @@
 .servicesSection {
-  padding: 3rem 1rem;
+  padding: 6rem 1rem;
   background: var(--bg-color);
   text-align: center;
   color: #fff;
   position: relative;
+  margin-top: 120px;
+  
 }
 
 .subheading {
@@ -110,6 +112,49 @@
 .nextButton:hover {
   color: aqua;
 }
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: #252734;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.speedControl {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.speedControl button {
+  padding: 0.5rem 1rem;
+  background: aqua;
+  color: #1e1e2d;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.speedControl button:hover {
+  background: #06b6d4;
+}
+
 
 /* Responsive Breakpoints */
 

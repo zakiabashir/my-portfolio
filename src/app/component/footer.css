@@ -11,8 +11,8 @@ footer {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -23,7 +23,7 @@ footer {
 }
 
 .footer-left img {
-    width: 100px;
+    width: 80px;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 80px;
@@ -35,43 +35,31 @@ footer {
     line-height: 1.6;
     margin-bottom: 10px;
 }
-
+/* FOOTER ight styling */
 .footer-center {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
+    width: 25%;
 }
 
-.footer-column {
-    width: 48%;
-    text-align: left;
-}
-
-.footer-column h4 {
+.footer-center h4 {
     font-size: 16px;
     margin-bottom: 15px;
-    color: rgb(60, 213, 213);
+    color: rgb(52, 212, 212);
 }
 
-.footer-column ul {
+.footer-center ul {
     list-style-type: none;
 }
 
-.footer-column ul li {
+.footer-center ul li {
     margin-bottom: 10px;
-    
-}
-
-.footer-column ul li a {
-    color: white;
-    text-decoration: none;
     font-size: 14px;
 }
 
-.footer-column ul li a:hover {
-    text-decoration: underline;
+.footer-center ul li i {
+    margin-right: 5px;
 }
-
+ 
+/* FOOTER ight styling */
 .footer-right {
     width: 25%;
 }
@@ -82,19 +70,6 @@ footer {
     color: rgb(52, 212, 212);
 }
 
-.footer-right ul {
-    list-style-type: none;
-}
-
-.footer-right ul li {
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-
-.footer-right ul li i {
-    margin-right: 10px;
-}
- 
 .fsocial-icons a {
     color: aqua;
     margin-right: 10px;

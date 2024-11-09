@@ -10,9 +10,9 @@
 
 :root {
     --text1-color: #f3e5e5;
-    --hover-color: #24a2a7;
-    --bg-color: linear-gradient(to bottom right, rgb(35, 34, 34), rgb(107, 105, 105), rgb(12, 15, 15));
-    --secon-bg-color: linear-gradient(to bottom right, rgb(35, 34, 34), rgb(162, 156, 156), rgb(25, 31, 31));
+    --hover-color: #93b917;
+    --bg-color: linear-gradient(to bottom right, rgb(16, 4, 95), rgb(107, 105, 105), rgb(6, 12, 49));
+    --secon-bg-color: linear-gradient(to bottom right, rgb(35, 34, 34), rgb(4, 17, 47), rgb(25, 31, 31));
     --big-font: 2.5rem;
     --norma-font: 2rem;
     --neon-box-shadow: 0 0 0.5rem #44d0d5;
@@ -27,6 +27,7 @@
 }
 
 body {
+    height: fit-content;
     font-family: Poppins, sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
@@ -44,7 +45,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 10%;
+    padding: 10px 10%;
     transition: padding 0.3s ease;
 }
 
@@ -62,6 +63,8 @@ header.sticky {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    text-align: center;
+    padding-right: 5px;
 }
 .logo img{
     border-radius: 50%;
@@ -118,16 +121,17 @@ span {
         flex-direction: column;
         position: absolute;
         top: 60px; 
-        right: 10%;
+        right: 2%;
         background: var(--bg-color);
         padding: 10px;
         border-radius: 8px;
-        width: 200px;
+        width: 100px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
 
     .navlist.open {
         display: flex; 
+        width: 100px;
     }
 
     #menu-icon {
