@@ -87,9 +87,9 @@
   /* readmore button styling */
   .btn-box {
     display: flex;
-    justify-content: center;
     width: 320px;
     height: 45px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -188,4 +188,15 @@ a.btn:nth-child(2)::before {
       font-size: 0.9rem;
     }
   }
-  
+  @media (max-width: 480px) {
+    .info-about {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media (max-width: 480px) {
+    .btn-box {
+      width: 100%;
+    }
+  }
+    

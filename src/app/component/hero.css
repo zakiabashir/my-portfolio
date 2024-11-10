@@ -225,7 +225,8 @@ a.btn:nth-child(2)::before {
     .home {
         grid-template-columns: 1fr; /* Change to single column */
         grid-gap: 2rem;
-        padding: 50px 5%; /* Adjust padding for mobile */
+        padding: 30px 5% 0 5%; /* Adjust padding for mobile */
+        margin-bottom: 0;
     }
 
     .home-content h1 {

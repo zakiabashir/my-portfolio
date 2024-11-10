@@ -1,0 +1,77 @@
+/* styles/Work.css */
+
+.workSection {
+    padding: 2.5rem 1rem;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
+   
+  }
+  
+  .heading {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .worksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .workItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .workItem {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+  
+  .image {
+    border-radius: 0.5rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .year {
+    background-color: #f87171; /* Example color */
+    color: #ffffff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .category {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .description {
+    color: #374151;
+  }
+  

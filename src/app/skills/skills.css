@@ -23,12 +23,18 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr; /* Single column on mobile */
-    gap: 30px; /* Use gap for uniform spacing */
+    gap: 10px; /* Use gap for uniform spacing */
 }
 
 /* Skill Bar */
 .skill-bar {
     margin-bottom: 2.3rem;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%;
+    margin-left: 90px;
 }
 
 .skill-main h3 {
@@ -172,5 +178,9 @@
 
     .circle {
         height: 120px; /* Maintain circle size on smaller screens */
+    }
+    .skill-bar {
+        
+        margin-left: 40px;
     }
 }

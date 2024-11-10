@@ -1,4 +1,5 @@
 "use client";
+import Work from "../component/work";
 import "./service.css"; // Importing as a global CSS file
 import { useState, useEffect } from "react";
 
@@ -57,7 +58,7 @@ function Service() {
   };
 
   return (
-    <section id="service" className="servicesSection">
+    <><section id="service" className="servicesSection">
       <h2 className="subheading">I am ready to assist you with anything you need.</h2>
       <h3 className="heading">Our Services</h3>
 
@@ -79,7 +80,13 @@ function Service() {
         ))}
       </div>
     </section>
+    <div>
+    <Work/>
+    </div></>
+    
   );
+
 }
 
 export default Service; 
+

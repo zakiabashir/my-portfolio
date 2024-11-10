@@ -96,8 +96,8 @@ function ProjectBox({ project }: { project: Project }) {
         <Image
           src={project.images[currentImage]}
           alt={project.title}
-          width={300}
-          height={300}
+          width={350}
+          height={350}
         />
       </div>
       <div className="port-content">
