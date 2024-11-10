@@ -84,6 +84,59 @@
     top: 70%;
   }
   
+  /* readmore button styling */
+  .btn-box {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 45px;
+    text-align: center;
+}
+
+.btn-box a.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 100%;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.8s;
+    box-shadow: var(--neon-box-shadow);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 1.5rem 1rem;
+}
+
+a.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(orange, red, aqua, magenta);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+a.btn:hover::before {
+    width: 100%;
+}
+
+a.btn:nth-child(2) {
+    background: var(--bg-color);
+    color: var(--hover-color);
+}
+
+a.btn:nth-child(2)::before {
+    background: linear-gradient(rgb(202, 133, 6), rgb(92, 25, 226), aqua, magenta);
+}
   @keyframes morph {
     0%, 100% {
       border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;

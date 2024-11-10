@@ -21,7 +21,7 @@ function Header() {
     <header className={`header ${isOpen ? "open" : ""}`}>
       <div className="logo">
       <Image src={zlogo} alt="qmsh" width={40} height={40} className="rounded-full align-center"/>
-      QM<span>SH</span>
+      <span>Z</span>akia
       </div>
       <ul className={`navlist ${isOpen ? "open" : ""}`}>
         <li>
@@ -32,6 +32,11 @@ function Header() {
         </li>
         <li>
           <a href="/service" onClick={closeMenu}>Service</a> {/* Updated link */}
+        </li><li>
+          <a href="/porfolio" onClick={closeMenu}>Portfolio</a>
+        </li>
+        <li>
+          <a href="/skills" onClick={closeMenu}>Skills</a> {/* Updated link */}
         </li>
         <li>
           <a href="/contact" onClick={closeMenu}>Contact</a>

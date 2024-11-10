@@ -1,5 +1,5 @@
 import Hero from "./component/hero";
-import Portfolio from "./component/portfolio";
+import Portfolio from "./porfolio/page";
 export default function Home() {
   return (
    <div>

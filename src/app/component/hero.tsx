@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import Image from "next/image";
-import example from "../../public/c2.jpeg";
+import example from "../../public/file.png";
 import "./hero.css";
 const Hero = () => {
   useEffect(() => {
@@ -57,25 +57,28 @@ const Hero = () => {
   return (
     <main>
       <section id="home" className="home">
-        <div className="home-content">
-          <h1><span>Buy</span> Your Next Classic Car </h1>
+      <div className="home-content">
+          <h1><span>Hi!</span> I am <span>Zakia</span></h1>
           <div className="change-text">
-            <h3>Used &  new  </h3><br />
+            <h3>and i&apos;m </h3><br />
             <h3>
-              <span className="word"> Electric &nbsp;car</span>
-              <span className="word">for&nbsp; sale</span>{" "}
-              <span className="word">classic&nbsp; car</span>
-              <span className="word">for&nbsp; Sale</span>
+              <span className="word">Frontend&nbsp;developer</span>
+              <span className="word">website&nbsp; creater</span>{" "}
+              <span className="word">ui/ux&nbsp; developer</span>
+              <span className="word">web&nbsp; developer</span>
             </h3>
           </div>
           <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora veniam ut. Velit dolores at a aut. Nihil at earum tenetur ea, omnis numquam, repudiandae quos esse consequatur quidem accusamus!
-Eaque maxime itaque exercitationem dolores ea quasi, incidunt quo facere ut deleniti nobis aperiam modi. Doloribus veritatis sit dolore ab porro nulla, dicta corrupti dignissimos alias at ratione similique molestiae?
-Impedit incidunt consequuntur illum ut nam inventore debitis labore veritatis eius dignissimos nobis omnis voluptatum repellat, fugit architecto eum, magnam, voluptate nisi distinctio est quibusdam possimus commodi? Beatae, quisquam eligendi.
-At eveniet sit optio architecto pariatur id ad minima quaerat cumque, assumenda vero unde explicabo sed quos nihil commodi nulla quasi laudantium velit. Quibusdam explicabo facilis accusamus optio. Qui, animi.          </p>
+          Welcome to my portfolio! I'm excited to have you here. As you scroll down, you'll get an in-depth look at my skills, the exciting projects I've worked on, and how I can collaborate with you to bring your creative ideas to life. Whether it's developing responsive, visually appealing websites or crafting innovative digital experiences, I take pride in combining creativity with technical expertise. Explore my journey, see the impact of my work, and learn how I can help turn your vision into reality with solutions tailored to your unique needs. Let's build something amazing together!
+          I am a web developer specializing in creating responsive, user-friendly websites with modern technologies.</p>
           
           <div className="btn-box">
-
+          <a
+              href="https://zakia-portfolio.vercel.app"
+              className="btn"
+            >
+              Download CV
+            </a>
             <a
             target="blank"
               href="https://www.linkedin.com/in/zakia-bashir-367b41254/"
@@ -105,7 +108,7 @@ At eveniet sit optio architecto pariatur id ad minima quaerat cumque, assumenda 
         </div>
         <div className="home-image">
           <div className="image-box">
-            <Image src={example} alt="zakia" height={600} width={600} />
+            <Image src={example} alt="zakia" height={500} width={500} />
           </div>
           <div className="liquid-shape">
             <svg
