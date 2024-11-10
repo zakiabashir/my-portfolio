@@ -6,6 +6,7 @@ import { MdMenu } from "react-icons/md";
 import "./header.css";
 import Image from "next/image";
 import zlogo from "@/public/zlogo.jpeg"
+import Link from "next/link";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,21 +26,21 @@ function Header() {
       </div>
       <ul className={`navlist ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="/" onClick={closeMenu}>Home</a>
+          <Link href="/" onClick={closeMenu}>Home</Link>
         </li>
         <li>
-          <a href="/about" onClick={closeMenu}>About</a>
+          <Link href="/about" onClick={closeMenu}>About</Link>
         </li>
         <li>
-          <a href="/service" onClick={closeMenu}>Service</a> {/* Updated link */}
+          <Link href="/service" onClick={closeMenu}>Service</Link> {/* Updated link */}
         </li><li>
-          <a href="/porfolio" onClick={closeMenu}>Portfolio</a>
+          <Link href="/porfolio" onClick={closeMenu}>Portfolio</Link>
         </li>
         <li>
-          <a href="/skills" onClick={closeMenu}>Skills</a> {/* Updated link */}
+          <Link href="/skills" onClick={closeMenu}>Skills</Link> {/* Updated link */}
         </li>
         <li>
-          <a href="/contact" onClick={closeMenu}>Contact</a>
+          <Link href="/contact" onClick={closeMenu}>Contact</Link>
         </li>
       </ul>
       <div id="menu-icon" onClick={toggleMenu}>

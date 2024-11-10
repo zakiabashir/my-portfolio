@@ -69,7 +69,7 @@ const Hero = () => {
             </h3>
           </div>
           <p>
-          Welcome to my portfolio! I'm excited to have you here. As you scroll down, you'll get an in-depth look at my skills, the exciting projects I've worked on, and how I can collaborate with you to bring your creative ideas to life. Whether it's developing responsive, visually appealing websites or crafting innovative digital experiences, I take pride in combining creativity with technical expertise. Explore my journey, see the impact of my work, and learn how I can help turn your vision into reality with solutions tailored to your unique needs. Let's build something amazing together!
+          Welcome to my portfolio! I&apos;m excited to have you here. As you scroll down, you&apos;ll get an in-depth look at my skills, the exciting projects I&apos;ve worked on, and how I can collaborate with you to bring your creative ideas to life. Whether it&apos;s developing responsive, visually appealing websites or crafting innovative digital experiences, I take pride in combining creativity with technical expertise. Explore my journey, see the impact of my work, and learn how I can help turn your vision into reality with solutions tailored to your unique needs. Let&apos;s build something amazing together!
           I am a web developer specializing in creating responsive, user-friendly websites with modern technologies.</p>
           
           <div className="btn-box">
